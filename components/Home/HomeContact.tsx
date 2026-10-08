@@ -15,7 +15,7 @@ export default function HomeContact() {
   ];
 
   return (
-    <section className="py-20 bg-whiteW">
+    <section id="Contact" className="py-20 bg-whiteW">
       <WebPageWrapper>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           {/* Left Column: About Info & Accordions */}

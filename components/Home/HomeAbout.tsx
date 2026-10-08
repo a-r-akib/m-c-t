@@ -4,7 +4,7 @@ import WebPageWrapper from "../WebPageWrapper";
 
 export default function HomeAbout() {
   return (
-    <section className="py-20 lg:py-20 bg-white">
+    <section id="About" className="py-20 lg:py-20 bg-white">
       <WebPageWrapper>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Left Column: Image with Red Accent Badge */}

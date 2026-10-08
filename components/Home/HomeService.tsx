@@ -24,7 +24,7 @@ export default function HomeService() {
   ];
 
   return (
-    <section className="relative bg-white pb-20">
+    <section id="Blogs" className="relative bg-white pb-20">
       {/* Top Dark Header Block */}
       <div className="bg-zinc-950 py-16 text-white">
         <WebPageWrapper>

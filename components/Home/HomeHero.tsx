@@ -3,7 +3,7 @@ import WebPageWrapper from "../WebPageWrapper";
 
 export default function HomeHero() {
   return (
-    <section className="relative overflow-hidden bg-zinc-950 py-20 lg:py-32">
+    <section id="Home" className="relative overflow-hidden bg-zinc-950 py-20 lg:py-32">
       {/* Background Image with Dark Gradient Overlay to match the design */}
       <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/30 to-transparent z-10"></div>
       <div className="absolute inset-0 bg-cover bg-right bg-[url('/img/home/2.jpeg')]"></div>

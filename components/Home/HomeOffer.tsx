@@ -3,7 +3,7 @@ import WebPageWrapper from "../WebPageWrapper";
 
 export default function HomeOffer() {
   return (
-    <section className="py-20 lg:py-20 bg-zinc-950">
+    <section id="Service" className="py-20 lg:py-20 bg-zinc-950">
       <WebPageWrapper>
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <div>

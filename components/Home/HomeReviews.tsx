@@ -32,7 +32,7 @@ export default function HomeReviews() {
   const current = testimonials[currentIndex];
 
   return (
-    <section className="relative py-24 bg-zinc-950 border-t border-zinc-800/80 overflow-hidden">
+    <section id="Testimonial" className="relative py-24 bg-zinc-950 border-t border-zinc-800/80 overflow-hidden">
       <WebPageWrapper>
         <div className="relative">
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">

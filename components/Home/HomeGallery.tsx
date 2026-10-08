@@ -21,7 +21,7 @@ export default function HomeGallery() {
   ];
 
   return (
-    <section className="py-20 bg-white relative">
+    <section id="Gallery" className="py-20 bg-white relative">
       <WebPageWrapper>
         <div className="space-y-8 relative z-20">
           {/* Section Heading */}

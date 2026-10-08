@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import WebPageWrapper from "../WebPageWrapper";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -21,14 +22,15 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-300">
-            {["Home", "Companies", "Vehicles", "About", "Contact"].map(
+            {["Home", "About", "Service", "Blogs", "Gallery","Testimonial","Contact"].map(
               (item) => (
-                <button
+                <Link href={`#${item}`}
+              
                   key={item}
                   className="transition-colors hover:text-red-500"
                 >
                   {item}
-                </button>
+                </Link>
               ),
             )}
           </nav>
